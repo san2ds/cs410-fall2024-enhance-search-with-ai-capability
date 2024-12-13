@@ -45,12 +45,13 @@ dependencies:
 
 Installation
 
-Create conda environment using environment.yml or requirement.txt file.
-Activate conda environment.
-Generate an API key using https://ai.google.dev/gemini-api/docs/api-key and copy the api key.
-Export API key for the environment - export GOOGLE_API_KEY = ‘your api key here’.
+1) Create conda environment using environment.yml or requirement.txt file.
+2) Activate conda environment.
+3) Generate an API key using https://ai.google.dev/gemini-api/docs/api-key and copy the api key.
+4) Export API key for the environment - export GOOGLE_API_KEY = ‘your api key here’.
+5) Create folder structure like below.
+6) Initial run will create indexes and preprocessed corpus.
 
-Set up environment variables: Create a .env file in the project root and add:
 
 
 
@@ -58,8 +59,8 @@ Set up environment variables: Create a .env file in the project root and add:
 Project Structure
 project/
 ├── code/
-│   ├── chatbot3.py
-│   └── [other source files]
+│   ├── chatbot.py
+│   └── generate_data.py
 ├── data/
 │   └── logs/
 │       └── aws-service-logs/
