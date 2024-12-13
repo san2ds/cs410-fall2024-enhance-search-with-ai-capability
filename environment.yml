@@ -1,0 +1,13 @@
+name: cs410-project
+dependencies:
+  - python=3.10
+  - conda-forge::openjdk=21
+  - conda-forge::maven
+  - conda-forge::lightgbm
+  - nmslib
+  - pytorch
+  - faiss-cpu
+  - pytorch
+  - conda-forge::jupyterlab
+  - conda-forge::notebook
+  - conda-forge::ipywidgets
